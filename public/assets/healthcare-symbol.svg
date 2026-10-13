@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <filter id="glow-symbol" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.15" />
+    </filter>
+  </defs>
+  <g transform="translate(10, 10) scale(0.9)" filter="url(#glow-symbol)">
+    <!-- Top person (Navy Blue) -->
+    <circle cx="100" cy="30" r="14" fill="#1e3a8a" />
+    <path d="M 58 64 C 82 40, 118 40, 142 64 C 124 60, 76 60, 58 64 Z" fill="#1e3a8a" />
+    
+    <!-- Right person (Orange) -->
+    <circle cx="170" cy="100" r="14" fill="#ea580c" />
+    <path d="M 136 58 C 160 82, 160 118, 136 142 C 140 124, 140 76, 136 58 Z" fill="#ea580c" />
+    
+    <!-- Bottom person (Deep Purple) -->
+    <circle cx="100" cy="170" r="14" fill="#6b21a8" />
+    <path d="M 142 136 C 118 160, 82 160, 58 136 C 76 140, 124 140, 142 136 Z" fill="#6b21a8" />
+    
+    <!-- Left person (Crimson Red) -->
+    <circle cx="30" cy="100" r="14" fill="#dc2626" />
+    <path d="M 64 142 C 40 118, 40 82, 64 58 C 60 76, 60 124, 64 142 Z" fill="#dc2626" />
+
+    <!-- Central Medical Cross (Forest Green) -->
+    <rect x="86" y="55" width="28" height="90" rx="6" fill="#15803d" />
+    <rect x="55" y="86" width="90" height="28" rx="6" fill="#15803d" />
+  </g>
+</svg>

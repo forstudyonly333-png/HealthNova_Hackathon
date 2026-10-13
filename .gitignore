@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build & compilation outputs
+build/
+dist/
+dist-server/
+coverage/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment secrets
+.env*
+!.env.example
+
+# Temporary uploaded files
+uploads/
+
+# Database files (temporary/local persistence, do not commit PHI or DB binaries)
+*.db
+*.sqlite
+*.sqlite3
+server/data/*.db
+server/data/*.sqlite
+
+# OS artifacts
+.DS_Store
+Thumbs.db

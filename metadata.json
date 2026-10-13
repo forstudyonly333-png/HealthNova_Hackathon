@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Remix Remix Remix Remix HealthCare - Accessible \u0026 Trusted Medical Services",
+  "description": "Modern, trusted healthcare portal connecting patients with expert doctors, fast consultations, and holistic community health services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

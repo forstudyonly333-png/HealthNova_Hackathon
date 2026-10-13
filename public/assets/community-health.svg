@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <rect width="200" height="200" rx="36" fill="#1e293b" />
+  <g transform="translate(15, 10) scale(0.85)">
+    <!-- 5 Figures in a circle (Green, Orange, Cyan, Teal, Pink) holding hands around medical droplet -->
+    <!-- Droplet in center -->
+    <path d="M 100 65 C 100 65, 75 105, 75 125 A 25 25 0 0 0 125 125 C 125 105, 100 65, 100 65 Z" fill="#0284c7" />
+    <path d="M 96 115 H 104 M 100 111 V 119" stroke="#facc15" stroke-width="4" stroke-linecap="round" />
+    
+    <!-- Orbiting Figures -->
+    <!-- Top Figure (Green) -->
+    <circle cx="100" cy="30" r="12" fill="#22c55e" />
+    <path d="M 80 48 Q 100 42 120 48" stroke="#22c55e" stroke-width="12" stroke-linecap="round" fill="none" />
+    
+    <!-- Top Right (Orange) -->
+    <circle cx="165" cy="80" r="12" fill="#f97316" />
+    <path d="M 152 64 Q 166 84 158 104" stroke="#f97316" stroke-width="12" stroke-linecap="round" fill="none" />
+    
+    <!-- Bottom Right (Sky Blue) -->
+    <circle cx="145" cy="165" r="12" fill="#38bdf8" />
+    <path d="M 154 146 Q 140 168 120 168" stroke="#38bdf8" stroke-width="12" stroke-linecap="round" fill="none" />
+    
+    <!-- Bottom Left (Teal) -->
+    <circle cx="55" cy="165" r="12" fill="#14b8a6" />
+    <path d="M 80 168 Q 60 168 46 146" stroke="#14b8a6" stroke-width="12" stroke-linecap="round" fill="none" />
+    
+    <!-- Top Left (Indigo) -->
+    <circle cx="35" cy="80" r="12" fill="#6366f1" />
+    <path d="M 42 104 Q 34 84 48 64" stroke="#6366f1" stroke-width="12" stroke-linecap="round" fill="none" />
+  </g>
+  <text x="100" y="185" text-anchor="middle" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="13" font-weight="800" fill="#38bdf8" letter-spacing="1">COMMUNITY HEALTH</text>
+</svg>
